@@ -1,14 +1,14 @@
 # newtype Lite
 
-面向 Codex 的轻量内容团队工作流，以单个 Skill 的方式提供。
+面向 Agent 环境的轻量内容团队工作流，以 Skills 的方式提供。
 
 [English](README.md)
 
 ## newtype Lite 是什么？
 
-newtype Lite 是一个自包含的 Skill，用来把 newtype 的部分内容工作流带进 Codex，但不需要完整的 newtype OS 运行时。
+newtype Lite 是一个自包含的 Skills 包，用来把 newtype 的部分内容工作流带进 Agent 环境，但不需要完整的 newtype OS 运行时。
 
-它可以让 Codex 以轻量内容团队路由器的方式处理：
+它可以让兼容的 Agent 以轻量内容团队路由器的方式处理：
 
 - 内容策划与 brief 梳理
 - 研究与资料整理
@@ -19,7 +19,7 @@ newtype Lite 是一个自包含的 Skill，用来把 newtype 的部分内容工�
 - 从用户提供的材料中提取结构化信息
 - 归档可复用的知识摘要
 
-newtype Lite 适合想在 Codex 里使用 newtype 方法层，但不想部署完整系统的用户。
+newtype Lite 适合想以便携 Skills 形态使用 newtype 方法层，但不想部署完整系统的用户。它可以用于 Codex，也可以用于其他支持 Skill 风格指令的 Agent 系统。
 
 ## Lite 版和 newtype OS 的区别
 
@@ -27,12 +27,12 @@ newtype Lite 不是 newtype OS 的替代品。
 
 | 能力 | newtype Lite | newtype OS |
 | --- | --- | --- |
-| 交付方式 | Codex Skill | 完整 CLI 产品 |
-| 运行时 | 使用当前 Codex 会话 | 独立 newtype 运行时 |
+| 交付方式 | Skills 包 | 完整 CLI 产品 |
+| 运行时 | 使用当前 Agent 会话 | 独立 newtype 运行时 |
 | Agent | 通过方法包模拟流程 | 完整多 Agent 工作流 |
 | 后台任务 | 不包含 | 按产品能力支持 |
 | 知识工作流 | 轻量摘要 | 完整项目工作流 |
-| 适合场景 | 在 Codex 内快速处理内容任务 | 完整 newtype 体验 |
+| 适合场景 | 在兼容 Agent 内快速处理内容任务 | 完整 newtype 体验 |
 
 如果想获得完整体验，包括整合版 CLI、更完整的工作流编排和完整产品能力，建议部署或安装 newtype OS。
 
@@ -54,18 +54,18 @@ newtype Lite 不是 newtype OS 的替代品。
 
 ## 安装
 
-把它安装为 Codex Skill：
+把它安装到支持 Skills 的 Agent 环境中。以 Codex 为例：
 
 ```bash
 mkdir -p ~/.codex/skills/newtype-lite
 cp -R SKILL.md references ~/.codex/skills/newtype-lite/
 ```
 
-然后重启 Codex，或重新加载 Skill 环境。
+然后重启 Codex，或重新加载 Skill 环境。对于其他 Agent，请把 `SKILL.md` 和 `references/` 放到该 Agent 约定的 Skills 目录中。
 
 ## 使用方式
 
-在 Codex 中提出内容任务，并按需提到 newtype Lite：
+在你的 Agent 中提出内容任务，并按需提到 newtype Lite：
 
 ```text
 用 newtype Lite 帮我把这些笔记整理成一篇可发布文章。

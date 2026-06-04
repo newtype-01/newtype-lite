@@ -1,14 +1,14 @@
 # newtype Lite
 
-Lightweight content-team workflows for Codex, packaged as a single Skill.
+Lightweight content-team workflows for agent environments, packaged as Skills.
 
 [简体中文](README.zh.md)
 
 ## What Is newtype Lite?
 
-newtype Lite is a self-contained Skill that brings part of the newtype content workflow into Codex without requiring the full newtype OS runtime.
+newtype Lite is a self-contained Skills package that brings part of the newtype content workflow into agent environments without requiring the full newtype OS runtime.
 
-It turns Codex into a lightweight content team router for:
+It turns a compatible agent into a lightweight content team router for:
 
 - planning and shaping content briefs
 - research and source organization
@@ -19,7 +19,7 @@ It turns Codex into a lightweight content team router for:
 - extracting useful information from supplied material
 - archiving reusable knowledge summaries
 
-newtype Lite is designed for users who want the method layer of newtype in a portable Skill format.
+newtype Lite is designed for users who want the method layer of newtype in a portable Skills format. It can be used with Codex and other agent systems that support Skill-style instructions.
 
 ## Lite vs. newtype OS
 
@@ -27,12 +27,12 @@ newtype Lite is not a replacement for newtype OS.
 
 | Capability | newtype Lite | newtype OS |
 | --- | --- | --- |
-| Delivery model | Codex Skill | Full CLI product |
-| Runtime | Uses the current Codex session | Dedicated newtype runtime |
+| Delivery model | Skills package | Full CLI product |
+| Runtime | Uses the current agent session | Dedicated newtype runtime |
 | Agents | Simulated through method packs | Full multi-agent workflow |
 | Background tasks | Not included | Included where supported |
 | Knowledge workflow | Lightweight summaries | Full project workflow |
-| Best for | Quick content workflows inside Codex | Complete newtype experience |
+| Best for | Quick content workflows inside compatible agents | Complete newtype experience |
 
 If you want the full experience, including the integrated CLI, richer workflow orchestration, and full product behavior, deploy or install newtype OS instead.
 
@@ -54,18 +54,18 @@ This keeps the workflow lightweight while still preserving the core newtype appr
 
 ## Installation
 
-Install it as a Codex Skill:
+Install it into a Skills-compatible agent environment. For Codex, you can use:
 
 ```bash
 mkdir -p ~/.codex/skills/newtype-lite
 cp -R SKILL.md references ~/.codex/skills/newtype-lite/
 ```
 
-Then restart Codex or reload your Skill environment.
+Then restart Codex or reload your Skill environment. For other agents, place `SKILL.md` and `references/` wherever that agent expects Skills.
 
 ## Usage
 
-Ask Codex for a content task and mention newtype Lite when useful:
+Ask your agent for a content task and mention newtype Lite when useful:
 
 ```text
 Use newtype Lite to help me turn these notes into a publishable article.
