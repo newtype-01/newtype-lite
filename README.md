@@ -21,7 +21,7 @@ It turns a compatible agent into a lightweight content team router for:
 
 newtype Lite is designed for users who want the method layer of newtype in a portable Skills format. It can be used with Codex and other agent systems that support Skill-style instructions.
 
-## Lite vs. newtype OS
+## newtype Lite vs. newtype OS
 
 newtype Lite is not a replacement for newtype OS.
 
