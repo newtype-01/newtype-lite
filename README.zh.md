@@ -99,3 +99,9 @@ Use newtype Lite to research this topic and draft a newsletter.
 newtype Lite 把 newtype OS 中的轻量内容工作流思路打包成 Skill-only 形态。它适合需要便携、无运行时的内容团队方法时使用。
 
 如果需要生产级使用、完整编排能力和完整 newtype 产品体验，请使用 newtype OS。
+
+## Links
+
+YouTube: [youtube.com/@huanyihe777](https://www.youtube.com/@huanyihe777)
+Twitter: [x.com/huangyihe](https://x.com/huangyihe)
+Substack: [newtype.pro](https://newtype.pro/)

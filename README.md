@@ -99,3 +99,9 @@ For simple tasks, the Skill loads one method pack. For more complex work, it mov
 newtype Lite carries the lightweight workflow ideas from newtype OS into a Skill-only package. It is useful when you want a portable, no-runtime version of the content team methods.
 
 For production use, full orchestration, and the complete newtype product experience, use newtype OS.
+
+## Links
+
+YouTube: [youtube.com/@huanyihe777](https://www.youtube.com/@huanyihe777)
+Twitter: [x.com/huangyihe](https://x.com/huangyihe)
+Substack: [newtype.pro](https://newtype.pro/)
